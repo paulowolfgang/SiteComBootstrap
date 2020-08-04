@@ -10,8 +10,8 @@
 		<link rel="stylesheet" type="text/css" href="_css/style.css">
 
 		<!-- ### Javascript ### -->
-		<script type="text/javascript" src="js/jquery.js"></script>
-		<script type="text/javascript" src="js/bootstrap.js"></script>
+		<script type="text/javascript" src="_js/jquery.js"></script>
+		<script type="text/javascript" src="_js/bootstrap.js"></script>
 
 	</head>
 	<body>
@@ -46,6 +46,47 @@
 			</div>
 
 		</nav>
+
+		<!-- ### Início Carousel -->
+		<div id="carouselSite" class="carousel slide" data-ride="carousel">
+
+			<ol class="carousel-indicators">
+				<li class="active" data-target="#carouselSite" data-slide-to="0"></li>
+				<li data-target="#carouselSite" data-slide-to="1"></li>
+				<li data-target="#carouselSite" data-slide-to="2"></li>
+			</ol>
+			
+			<div class="carousel-inner">
+
+				<div class="carousel-item active">
+					<img src="_img/01slide.jpg" class="img-fluid d-block">
+
+					<div class="carousel-caption d-none d-md-block text-dark">
+						<h1>WEB Design Profissional</h1>
+						<p class="lead">Sites Responsivos, Estilosos e Com Maior Desempenho.</p>
+					</div>
+				</div>
+
+				<div class="carousel-item">
+					<img src="_img/02slide.jpg" class="img-fluid d-block">
+				</div>
+
+				<div class="carousel-item">
+					<img src="_img/03slide.jpg" class="img-fluid d-block">
+				</div>
+
+			</div>
+
+			<a class="carousel-control-prev" href="#carouselSite" role="button" data-slide="prev">
+				<span class="carousel-control-prev-icon"></span>
+			</a>
+
+			<a class="carousel-control-next" href="#carouselSite" role="button" data-slide="next">
+				<span class="carousel-control-next-icon"></span>
+			</a>
+
+		</div>
+		<!-- ### Fim Carousel ### -->
 
 	</body>
 </html>
